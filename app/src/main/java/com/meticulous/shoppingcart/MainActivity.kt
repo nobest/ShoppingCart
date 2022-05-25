@@ -10,9 +10,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.container, MainFragment.newInstance())
-                .commitNow()
+            loadMainFragment()
         }
+    }
+
+    private fun loadMainFragment() {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.container, MainFragment.newInstance())
+            .commitNow()
+        title = getString(R.string.cart_title)
     }
 }
