@@ -8,4 +8,5 @@ interface CartItem {
     fun incrementQuantity()
     fun decrementQuantity()
     fun updateQuantity(quantity: Int)
+    fun getImageUrl(): String
 }

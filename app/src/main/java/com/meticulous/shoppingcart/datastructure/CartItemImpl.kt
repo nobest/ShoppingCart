@@ -30,4 +30,6 @@ data class CartItemImpl(
             itemQuantity = quantity
         }
     }
+
+    override fun getImageUrl() = item.getItemImageUrl()
 }

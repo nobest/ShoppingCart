@@ -6,4 +6,5 @@ interface Item {
     fun getItemName(): String
     fun getItemPrice(): Double
     fun getItemDate(): Date
+    fun getItemImageUrl(): String
 }
