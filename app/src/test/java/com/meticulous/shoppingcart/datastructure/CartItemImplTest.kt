@@ -11,7 +11,7 @@ internal class CartItemImplTest {
     private val itemPrice = 50.00
     private val date = Date(1653904800000)
 
-    val cartItem: CartItem = CartItemImpl(ItemImpl(itemName, itemPrice, date), 1)
+    val cartItem: CartItem = CartItemImpl(ItemImpl(itemName, itemPrice, date, ""), 1)
 
     @Test
     fun getName() {

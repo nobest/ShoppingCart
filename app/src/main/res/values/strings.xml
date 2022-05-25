@@ -2,4 +2,6 @@
     <string name="app_name">ShoppingCart</string>
     <string name="cart_title">Your Items</string>
     <string name="go_to_checkout">Go To Checkout</string>
+    <string name="item_price_template">$%s each</string>
+    <string name="cart_item_sub_total">Subtotal: $%s</string>
 </resources>
